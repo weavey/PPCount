@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape>
+            <solid android:color="@color/colorPrimary"></solid>
+        </shape>
+    </item>
+
+
+    <item>
+        <shape>
+
+          <padding android:bottom="100dp"></padding>
+            <gradient
+
+                android:angle="270"
+                android:centerColor="@color/colorPrimary"
+                android:endColor="@color/colorPrimary"
+                android:startColor="@color/colorPrimaryDark2"
+
+                />
+        </shape>
+    </item>
+
+    <!--<item>-->
+    <!--<shape>-->
+    <!--<gradient-->
+    <!--android:type="radial"-->
+    <!--android:gradientRadius="200dp"-->
+    <!--android:startColor="@color/white"-->
+    <!--android:endColor="@color/colorPrimary"-->
+    <!--android:centerX="-5%"-->
+    <!--android:centerY="90%"-->
+    <!--&gt;</gradient>-->
+    <!--</shape>-->
+    <!--</item>-->
+
+</layer-list>

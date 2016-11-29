@@ -1,0 +1,38 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.weavey.activity.WelcomeActivity">
+
+
+    <ImageView
+        android:id="@+id/welcome_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_brightness_4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dp_130"
+        />
+    <TextView
+        android:layout_below="@id/welcome_logo"
+        android:textColor="@color/white"
+        android:text="时记"
+        android:layout_marginTop="@dimen/dp_5"
+        android:textSize="@dimen/sp_20"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/sp_12"
+        android:text="Copyright © 2016 L.Weavey"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="@dimen/dp_16"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

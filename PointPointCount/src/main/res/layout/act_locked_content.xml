@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/act_locked_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dp_140"
+        android:gravity="center"
+        android:text="@string/locked_input_pwd"
+        android:textColor="@color/text_color_dark_gray"
+        android:textSize="@dimen/sp_15"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/act_locked_input_text"
+        android:layout_marginTop="@dimen/dp_16"
+        android:gravity="center"
+        android:orientation="horizontal"
+
+        >
+
+        <RadioButton
+            android:id="@+id/locked_radio1"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:layout_margin="@dimen/dp_8"
+            android:background="@drawable/selector_radio_green"
+            android:button="@null"
+            android:clickable="false"
+            />
+
+        <RadioButton
+            android:id="@+id/locked_radio2"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:layout_margin="@dimen/dp_8"
+            android:background="@drawable/selector_radio_green"
+            android:button="@null"
+            android:clickable="false"
+            />
+
+        <RadioButton
+            android:id="@+id/locked_radio3"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:layout_margin="@dimen/dp_8"
+            android:background="@drawable/selector_radio_green"
+            android:button="@null"
+            android:clickable="false"
+            />
+
+        <RadioButton
+            android:id="@+id/locked_radio4"
+            android:layout_width="@dimen/dp_25"
+            android:layout_height="@dimen/dp_25"
+            android:layout_margin="@dimen/dp_8"
+            android:background="@drawable/selector_radio_green"
+            android:button="@null"
+            android:clickable="false"
+            />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/locked_num1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="1"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="26sp"
+                />
+
+            <Button
+                android:id="@+id/locked_num2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="2"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <Button
+                android:id="@+id/locked_num3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="3"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/locked_num4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="4"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <Button
+                android:id="@+id/locked_num5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="5"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <Button
+                android:id="@+id/locked_num6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="6"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/locked_num7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="7"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <Button
+                android:id="@+id/locked_num8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="8"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <Button
+                android:id="@+id/locked_num9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="9"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <Button
+                android:id="@+id/locked_num0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:padding="@dimen/dp_12"
+                android:text="0"
+                android:textColor="@color/text_color_dark_gray"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <LinearLayout
+                android:id="@+id/locked_delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_white2grey"
+                android:clickable="true"
+                android:gravity="center"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_backspace"
+                    />
+
+            </LinearLayout>
+
+
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>

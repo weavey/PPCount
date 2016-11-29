@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00796b</color>
+    <color name="colorAccent">#009688</color>
+
+    <color name="colorPrimary2">#009688</color>
+    <color name="trans_colorPrimary">#26009688</color>
+    <color name="trans_dark_colorPrimary">#de009688</color>
+    <color name="colorPrimaryDark2">#008b7e</color>
+    <color name="trans_gray">#0a898989</color>
+    <color name="trans_dark_gray">#de898989</color>
+
+    <!--<color name="colorAccent">#ffffff</color>-->
+
+
+    <color name="white">#ffffff</color>
+    <color name="gray">#898989</color>
+    <color name="yellow">#ffe269</color>
+    <color name="yellow2">#ffdc48</color>
+
+    <color name="yellow_a">#e6ffe269</color>
+    <color name="yellow_a2">#f0ffdc48</color>
+
+
+    <color name="green">#4CAF50</color>
+    <color name="green2">#49a94d</color>
+
+    <color name="dark_blue">#0097A7</color>
+    <color name="dark_blue2">#008f9e</color>
+
+    <color name="text_color_dark_gray">#FF424242</color>
+    <color name="text_color_light_gray">#898989</color>
+
+    <color name="line_gray">#dfdfdf</color>
+
+    <color name="ripple_gray">#898989</color>
+    <color name="ripple_white">#14ffffff</color>
+    <color name="ripple_green">#00796b</color>
+    <color name="ripple_green2">#6000796b</color>
+    <color name="ripple_yellow">#aaffe63f</color>
+
+    <color name="baseBackground">#f7f7f7</color>
+
+    <color name="toastColor">#fb009688</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

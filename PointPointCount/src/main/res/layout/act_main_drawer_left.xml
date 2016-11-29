@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ripple="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.andexert.library.RippleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ripple:rv_color="@color/ripple_green"
+        ripple:rv_type="simpleRipple"
+        ripple:rv_zoom="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:background="@drawable/shape_color_primary"
+            android:padding="@dimen/dp_16"
+            >
+
+            <TextView
+                android:id="@+id/main_drawer_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_26"
+                />
+
+            <TextView
+                android:id="@+id/main_drawer_dot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/main_drawer_address"
+                android:text=" · "
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_26"
+                android:visibility="gone"
+                />
+
+            <TextView
+                android:id="@+id/main_drawer_weather"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@id/main_drawer_address"
+                android:layout_toRightOf="@id/main_drawer_dot"
+                android:textColor="@color/white"
+                android:textSize="@dimen/sp_20"
+                />
+
+            <TextView
+                android:id="@+id/main_drawer_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/sp_14"
+                />
+
+        </RelativeLayout>
+    </com.andexert.library.RippleView>
+
+    <!--<com.weavey.widget.BounceScrollView-->
+    <!--android:background="@color/white"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--&gt;-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <com.andexert.library.RippleView
+            android:id="@+id/drawer_share_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ripple:rv_color="@color/ripple_gray"
+            ripple:rv_rippleDuration="100"
+            ripple:rv_type="simpleRipple"
+            ripple:rv_zoom="true"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_share"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/dp_16"
+                android:text="分享给好友"
+                android:textColor="@color/text_color_dark_gray"
+                />
+
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:id="@+id/drawer_share_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ripple:rv_color="@color/ripple_gray"
+            ripple:rv_rippleDuration="100"
+            ripple:rv_type="simpleRipple"
+            ripple:rv_zoom="true"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_wechat_circle"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/dp_16"
+                android:text="分享到朋友圈"
+                android:textColor="@color/text_color_dark_gray"
+                />
+
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:id="@+id/drawer_classify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ripple:rv_color="@color/ripple_gray"
+            ripple:rv_rippleDuration="100"
+            ripple:rv_type="simpleRipple"
+            ripple:rv_zoom="true"
+            >
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_classify"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/dp_16"
+                android:text="分类管理"
+                android:textColor="@color/text_color_dark_gray"
+                />
+
+        </com.andexert.library.RippleView>
+
+
+        <com.andexert.library.RippleView
+            android:id="@+id/drawer_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ripple:rv_color="@color/ripple_gray"
+            ripple:rv_rippleDuration="100"
+            ripple:rv_type="simpleRipple"
+            ripple:rv_zoom="true">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/ic_settings_black_18dp"
+                android:drawablePadding="@dimen/dp_10"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="@dimen/dp_16"
+                android:text="密码设置"
+                android:textColor="@color/text_color_dark_gray"
+                />
+
+        </com.andexert.library.RippleView>
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            ripple:rv_color="@color/ripple_gray"
+            ripple:rv_type="simpleRipple"
+            ripple:rv_zoom="true">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"/>
+        </com.andexert.library.RippleView>
+
+    </LinearLayout>
+    <!--</com.weavey.widget.BounceScrollView>-->
+</LinearLayout>
+
