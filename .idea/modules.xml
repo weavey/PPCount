@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Lib_My_Widget/Lib_My_Widget.iml" filepath="$PROJECT_DIR$/Lib_My_Widget/Lib_My_Widget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PPCount.iml" filepath="$PROJECT_DIR$/PPCount.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PointPointCount/PointPointCount.iml" filepath="$PROJECT_DIR$/PointPointCount/PointPointCount.iml" />
+    </modules>
+  </component>
+</project>
